@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home" />
+
+     <!--   <item
+            android:id="@+id/nav_movies"
+            android:icon="@mipmap/ic_local_movies_black"
+            android:title="@string/nav_movies" />  -->
+        <item
+            android:id="@+id/nav_shake"
+            android:icon="@drawable/shake"
+            android:title="@string/nav_shake" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/location"
+            android:title="@string/nav_location" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/notification"
+            android:title="@string/nav_notifications" />
+
+             <item
+            android:id="@+id/nav_instructions"
+            android:icon="@drawable/instrut1"
+            android:title="Instructions"></item>
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_photos"
+                android:icon="@drawable/photo"
+                android:title="@string/nav_photos" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/setting"
+                android:title="@string/nav_settings" />
+
+
+            <item
+                android:id="@+id/nav_contact_us"
+                android:title="@string/nav_contact_us"
+                android:icon="@drawable/contact">
+
+             </item>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/shareimg"
+                android:title="Share"
+            >
+             </item>
+    <!--        <item
+                android:id="@+id/nav_logout"
+                android:title="Logout"></item> -->
+         </menu>
+    </item>
+
+</menu>
