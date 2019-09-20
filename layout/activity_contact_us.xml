@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact_us"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/backg">
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/firstTableRow">
+    <TextView
+        android:text="Contact Us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/headingTextView"
+        />
+
+</TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:id="@+id/secondTableRow">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/phone"
+            android:layout_below="@+id/headingTextView"
+            android:id="@+id/phoneImg"
+            android:layout_marginTop="22dp"/>
+        <TextView
+            android:text="Vishaldeep Singh\n+91 9781092691\n \n Rajinder Kaur\n Navdeep Kaur\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/phoneTextView"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/thirdTableRow">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/email"
+            android:layout_marginTop="22dp"
+            android:id="@+id/emailImg"
+            />
+        <TextView
+            android:text="GlobalEngineers@gmail.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailTextView"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="28dp"
+            />
+
+
+    </TableRow>
+
+</TableLayout>

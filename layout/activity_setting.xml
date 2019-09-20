@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="#E52B50"
+    tools:context="com.example.vishaldeepsingh.vsafe.Activity.SettingActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:weightSum="100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="10" />
+        <EditText
+            android:id="@+id/verifyEmailEDT"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+
+            android:textColor="#001941"
+            android:background="@android:color/white"
+            android:textColorHint="#001941"
+            android:layout_weight="80"
+            android:hint="Enter Email"
+
+            android:inputType="textPersonName"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:weightSum="100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="10" />
+        <EditText
+            android:id="@+id/verifyContactEDT"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="80"
+
+            android:textColor="#001941"
+            android:background="@android:color/white"
+            android:textColorHint="#001941"
+            android:hint="Enter Contact No"
+
+            android:inputType="phone"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:weightSum="100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="10" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="10" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+
+    <Button
+        android:id="@+id/verifyEmergencyContactBTN"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:background="#EEEEEF"
+        android:textStyle="bold"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:text="Update"
+        android:textColor="#E52B50" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+
+
+
+
+</LinearLayout>
+
+

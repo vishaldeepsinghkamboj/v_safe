@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Activity.RegisterActivity"
+    android:weightSum="100"
+    android:orientation="vertical"
+
+    android:background="#E52B50">
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Registration"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:freezesText="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:weightSum="100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="10" />
+        <EditText
+
+            android:layout_weight="80"
+            android:id="@+id/ed1name"
+            android:textColor="#001941"
+            android:background="@android:color/white"
+            android:textColorHint="#001941"
+            android:hint="Enter Name"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+
+            android:inputType="textPersonName" >
+
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:weightSum="100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="10" />
+        <EditText
+            android:hint="Enter Contact No."
+            android:layout_weight="80"
+            android:id="@+id/ed1no"
+            android:textColor="#001941"
+            android:background="@android:color/white"
+            android:textColorHint="#001941"
+
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+
+            android:inputType="phone" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="10" />
+        <EditText
+            android:layout_weight="80"
+            android:id="@+id/ed1email"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+
+            android:textColor="#001941"
+            android:background="@android:color/white"
+            android:textColorHint="#001941"
+            android:hint="Enter Email_id"
+            android:inputType="textPersonName"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:weightSum="100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="10" />
+        <EditText
+            android:layout_weight="80"
+            android:id="@+id/ed1city"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:ems="10"
+
+            android:textColor="#001941"
+            android:background="@android:color/white"
+            android:textColorHint="#001941"
+            android:hint="Enter Address"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9" />
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        android:id="@+id/bregister"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Register"
+        android:textColor="#E52B50"
+        android:background="#EEEEEF" />
+
+</LinearLayout>

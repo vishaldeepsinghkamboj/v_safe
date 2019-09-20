@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_capture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vishaldeepsingh.vsafe.Activity.CaptureActivity">
+
+    <LinearLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_ChangeCamera"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/indexx"
+        android:text="" />
+
+
+</LinearLayout>

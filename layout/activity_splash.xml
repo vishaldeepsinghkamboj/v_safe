@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey2"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".Activity.SplashActivity" >
+
+    <ImageView
+        android:id="@+id/splashImgView"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ok"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/womenSafetyTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Women Safety"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <ProgressBar
+        android:id="@+id/pgBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splashImgView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:minWidth="300dp"
+        android:progress="20" />
+
+</RelativeLayout>
