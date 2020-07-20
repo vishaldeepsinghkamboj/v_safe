@@ -5,4 +5,4 @@
 
 
 
-NOTE:- Due to different API's it make not work.
+NOTE:- Due to different API's it may not work.
